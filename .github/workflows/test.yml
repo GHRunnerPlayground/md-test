@@ -5,4 +5,5 @@ jobs:
   test-job:
     runs-on: self-hosted
     steps:
-      - run: echo Execution
+      - uses: actions/checkout@v3
+      - run: ./scripts/script.sh
