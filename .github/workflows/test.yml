@@ -6,4 +6,7 @@ jobs:
     runs-on: self-hosted
     steps:
       - run: echo Execution
-      - run: echo test
+  test-job2:
+    runs-on: self-hosted
+    steps:
+      - run: echo Execution2
