@@ -7,3 +7,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: ./scripts/script.sh
+      - run: echo ${{ github.repository_owner }}
