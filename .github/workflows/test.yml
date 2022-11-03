@@ -1,6 +1,5 @@
 name: Test
-run-name: ${{ github.actor }} test
-on: [pull_request, push]
+on: [push]
 jobs:
   test-job:
     runs-on: self-hosted
