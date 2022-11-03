@@ -1,1 +1,1 @@
-echo "Tes"
+echo "Test"
