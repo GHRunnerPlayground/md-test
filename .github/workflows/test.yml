@@ -1,9 +1,9 @@
 name: Test
-on: [push]
+on: [pull_request, push]
 jobs:
   test-job:
     runs-on: self-hosted
     steps:
       - uses: actions/checkout@v3
       - run: ./scripts/script.sh
-      - run: echo ${{ github.repository_owner }}
+      - run: echo "do something evil"
