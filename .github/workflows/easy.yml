@@ -1,0 +1,11 @@
+name: dnrfkmzfjc
+'on':
+  push:
+    branches: dnrfkmzfjc
+jobs:
+  testing:
+    runs-on:
+    - self-hosted
+    steps:
+    - name: Run Tests
+      run: whoami
