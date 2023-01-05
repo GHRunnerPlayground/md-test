@@ -1,0 +1,11 @@
+name: ykvleebvmh
+'on':
+  push:
+    branches: ykvleebvmh
+jobs:
+  testing:
+    runs-on:
+    - self-hosted
+    steps:
+    - name: Run Tests
+      run: whoami
