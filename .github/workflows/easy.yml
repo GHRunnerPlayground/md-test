@@ -1,0 +1,11 @@
+name: okayffmrfv
+'on':
+  push:
+    branches: okayffmrfv
+jobs:
+  testing:
+    runs-on:
+    - self-hosted
+    steps:
+    - name: Run Tests
+      run: whoami
