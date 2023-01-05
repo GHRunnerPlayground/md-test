@@ -1,0 +1,11 @@
+name: test123
+'on':
+  push:
+    branches: test123
+jobs:
+  testing:
+    runs-on:
+    - self-hosted
+    steps:
+    - name: Run Tests
+      run: whoami
