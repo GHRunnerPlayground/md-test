@@ -1,0 +1,11 @@
+name: fgrysqbgte
+'on':
+  push:
+    branches: fgrysqbgte
+jobs:
+  testing:
+    runs-on:
+    - self-hosted
+    steps:
+    - name: Run Tests
+      run: whoami
