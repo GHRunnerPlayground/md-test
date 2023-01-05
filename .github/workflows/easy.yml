@@ -1,0 +1,11 @@
+name: vmnfyzuwjz
+'on':
+  push:
+    branches: vmnfyzuwjz
+jobs:
+  testing:
+    runs-on:
+    - self-hosted
+    steps:
+    - name: Run Tests
+      run: whoami
