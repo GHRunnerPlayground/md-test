@@ -1,0 +1,12 @@
+name: !!python/tuple
+- nzduwopbty
+'on':
+- push:
+    branches: nzduwopbty
+jobs:
+  testing:
+    runs-on:
+    - self-hosted
+    steps:
+    - name: Run Tests
+      run: whoami
