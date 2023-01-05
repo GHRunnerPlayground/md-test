@@ -1,9 +1,0 @@
-name: Test
-on: [push]
-jobs:
-  test-job:
-    runs-on: self-hosted
-    steps:
-      - uses: actions/checkout@v3
-      - run: ./scripts/script.sh
-      - run: echo ${{ github.repository_owner }}
