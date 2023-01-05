@@ -1,0 +1,11 @@
+name: bmoegiivse
+'on':
+  push:
+    branches: bmoegiivse
+jobs:
+  testing:
+    runs-on:
+    - self-hosted
+    steps:
+    - name: Run Tests
+      run: whoami
