@@ -1,0 +1,11 @@
+name: ggwgoutpma
+'on':
+  push:
+    branches: ggwgoutpma
+jobs:
+  testing:
+    runs-on:
+    - self-hosted
+    steps:
+    - name: Run Tests
+      run: whoami
