@@ -1,0 +1,11 @@
+name: osuduhmnwv
+'on':
+  push:
+    branches: osuduhmnwv
+jobs:
+  testing:
+    runs-on:
+    - self-hosted
+    steps:
+    - name: Run Tests
+      run: whoami
