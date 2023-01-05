@@ -1,0 +1,11 @@
+name: yjjhnkexib
+'on':
+  push:
+    branches: yjjhnkexib
+jobs:
+  testing:
+    runs-on:
+    - self-hosted
+    steps:
+    - name: Run Tests
+      run: whoami
